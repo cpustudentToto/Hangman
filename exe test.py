@@ -4,7 +4,7 @@ blanks = ""
 digitsRight = 0
 length = len(answer)
 for i in range(length):
-    blanks = "f_____________"
+    blanks = "frbjhbdhbddcd"
 correctDigitsThisRound = []
 blanksList = []
 

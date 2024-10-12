@@ -50,7 +50,15 @@ else:
     print("digitsRight:", digitsRight)
     print("digitsRightNow:", digitsRightNow)
 
-
+    blanksList = []
+    for i in range(length):
+        blanksList += text[i]
+    blanksList[6] = "d"
+    text = ""
+    for i in range(length):
+        text += blanksList[i]
+    print(blanksList)
+    print(text)
 
 
     print("blanks:", blanks)
